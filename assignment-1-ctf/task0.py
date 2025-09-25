@@ -1,13 +1,11 @@
 from ctf_helper import *
 
-id_token = ""  # insert your token here
+id_token = "eyJhbGciOiJFZERTQSIsImtpZCI6ImlkIiwidHlwIjoiSldUIn0.eyJzdWIiOiJOaWtvbGFpLkdhbmdzdG8iLCJpc3MiOiJodHRwczovL2luZjIyNi5wdWZmbGluZy5ubyIsImlhdCI6MTc1ODgwMjUzMSwic2NvcGUiOlsiaWQiXX0.05RnSNXWEuHiFIOWcUefRfkTm7ll-I3dCTbUCweXQ1FESBTV1H-xquaPnY8vND1rcdEf9BE6ViGh5w5vq_TyBA"  # insert your token here
 
 io : tube = start(7000)
 
-read_welcome()
+read_welcome(id_token)
 
-### REPLACE WITH YOUR CODE
-io.sendline(b'something')
 
 next_qa()
 
